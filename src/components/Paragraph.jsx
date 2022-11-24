@@ -1,7 +1,11 @@
 import React from "react";
 
-function Paragraph() {
-  return <div>Paragraph</div>;
+function Paragraph({ item }) {
+  return (
+    <>
+      <p>{item}</p>
+    </>
+  );
 }
 
 export default Paragraph;
