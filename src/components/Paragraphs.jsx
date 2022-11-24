@@ -5,7 +5,7 @@ import Paragraph from "./Paragraph";
 function Paragraphs() {
   const { paragraphs } = useGlobalContext();
   return (
-    <div>
+    <div className="container mt-5">
       {paragraphs.map((item, index) => {
         return <Paragraph key={index} item={item} />;
       })}
